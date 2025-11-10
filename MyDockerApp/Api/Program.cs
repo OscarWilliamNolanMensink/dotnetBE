@@ -1,6 +1,7 @@
 using Api.Data;
 using Api.Models;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,13 @@ using (var scope = app.Services.CreateScope())
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi(); // serves /openapi/v1.json
+    app.MapScalarApiReference(
+        endpointPrefix: "/openapi",
+        options =>
+        {
+            options.Title = "Api";
+            // options.Theme = ScalarTheme.Default; // if you want to customize later
+        });
 }
 
 app.MapGet("/", () => Results.Ok("API is running"));

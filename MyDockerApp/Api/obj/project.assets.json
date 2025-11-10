@@ -720,6 +720,22 @@
           }
         }
       },
+      "Scalar.AspNetCore/2.10.3": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "System.CodeDom/6.0.0": {
         "type": "package",
         "compile": {
@@ -2450,6 +2466,25 @@
         "postgresql.png"
       ]
     },
+    "Scalar.AspNetCore/2.10.3": {
+      "sha512": "uDJlK7ZcHJgAIbXKB3zf4D/70VVEdsYaN3qwoUSBP3OHrdlLR/cIIYp16OFfX9d4VP29b30Jf6KXF59PvFGG4w==",
+      "type": "package",
+      "path": "scalar.aspnetcore/2.10.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net10.0/Scalar.AspNetCore.dll",
+        "lib/net10.0/Scalar.AspNetCore.xml",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.2.10.3.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
+      ]
+    },
     "System.CodeDom/6.0.0": {
       "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
       "type": "package",
@@ -2844,7 +2879,8 @@
       "Microsoft.AspNetCore.OpenApi >= 9.0.10",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.0"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.0",
+      "Scalar.AspNetCore >= 2.10.3"
     ]
   },
   "packageFolders": {
@@ -2853,11 +2889,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\Api\\Api.csproj",
+      "projectPath": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\api\\Api.csproj",
       "packagesPath": "C:\\Users\\mensi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\Api\\obj\\",
+      "outputPath": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mensi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2907,6 +2943,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[2.10.3, )"
           }
         },
         "imports": [

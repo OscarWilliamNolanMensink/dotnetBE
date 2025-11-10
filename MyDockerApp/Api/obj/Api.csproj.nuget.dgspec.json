@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\Api\\Api.csproj": {}
+    "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\Api\\Api.csproj": {
+    "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\Api\\Api.csproj",
+        "projectPath": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\api\\Api.csproj",
         "packagesPath": "C:\\Users\\mensi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\Api\\obj\\",
+        "outputPath": "C:\\Users\\mensi\\Git\\dotnetBE\\MyDockerApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mensi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,6 +61,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.10.3, )"
             }
           },
           "imports": [

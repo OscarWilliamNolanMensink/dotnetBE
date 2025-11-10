@@ -119,3 +119,4 @@ C:\Users\mensi\Git\dotnetBE\MyDockerApp\Api\obj\Debug\net9.0\refint\Api.dll
 C:\Users\mensi\Git\dotnetBE\MyDockerApp\Api\obj\Debug\net9.0\Api.pdb
 C:\Users\mensi\Git\dotnetBE\MyDockerApp\Api\obj\Debug\net9.0\Api.genruntimeconfig.cache
 C:\Users\mensi\Git\dotnetBE\MyDockerApp\Api\obj\Debug\net9.0\ref\Api.dll
+C:\Users\mensi\Git\dotnetBE\MyDockerApp\api\bin\Debug\net9.0\Scalar.AspNetCore.dll
